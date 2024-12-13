@@ -1,10 +1,10 @@
 # CoolMark2.0 🔥🔥🔥
 **Markdown编辑器,在原先CoolMark的基础上的升级版**
 
-👉 *CoolMark1.0地址:https://github.com/JustOneYounger/CoolMark* 👈
+👉 *CoolMark1.0地址: [https://github.com/JustOneYounger/CoolMark](https://github.com/JustOneYounger/CoolMark)* 👈
 
-- **可执行软件下载链接**:[https://www.123684.com/s/LKlZTd-ZmIvd](https://www.123684.com/s/LKlZTd-2fIvd)
-- **下载备用链接**:[https://www.123865.com/s/LKlZTd-ZmIvd](https://www.123865.com/s/LKlZTd-2fIvd)
+- **可执行软件下载链接**: [https://www.123684.com/s/LKlZTd-ZmIvd](https://www.123684.com/s/LKlZTd-2fIvd)
+- **下载备用链接**: [https://www.123865.com/s/LKlZTd-ZmIvd](https://www.123865.com/s/LKlZTd-2fIvd)
 
 ⚠️**软件当前仅可在Windows系统下运行**⚠️
 
