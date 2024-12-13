@@ -1,0 +1,265 @@
+* {
+ 	padding-top: 0;
+ 	padding-bottom: 0;
+	font-size: 14px;
+	font-family: 'Consolas';
+	color: white;
+}
+
+
+
+html,body {
+	/* 暗色调 */
+	background: #0A0A0A;
+	/* 亮色调 */
+/*	background: #FFFFFF;*/
+}
+
+
+
+/* 超链接 */
+a {
+	color: #409EFF;
+	text-decoration: none;
+}
+
+
+
+/* 分割线 */
+hr {
+}
+
+
+
+/* 数学公式 */
+.MathJax_Display {
+	color: white !important;
+}
+.MathJax_Preview {
+	color: white !important;
+}
+
+
+
+/* 字体 */
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h1,h2 {
+ 	border-bottom: 1px solid #4C4D4F;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+
+
+/* 粗体 */
+strong {
+}
+
+
+
+/* 斜体 */
+em {
+}
+
+
+
+/* 删除线 */
+del {
+	color: #909399;
+}
+
+
+
+/* 段落 */
+p {
+}
+
+
+
+/* 引用 */
+blockquote{
+}
+
+blockquote p {
+}
+
+
+
+/* 列表 */
+ol {
+}
+
+ol li{
+}
+
+ul {
+}
+
+ul li{
+}
+
+dl {
+}
+
+dl dt {
+}
+
+dl dd {
+}
+
+
+
+/* 代码*/
+code {
+	color: #F56C6C;
+	/* 暗色调 */
+	background: #262727;
+	/* 亮色调*/
+/*	background: #F2F3F5;*/
+
+	border-radius: 5px;
+}
+
+
+
+/* 代码块 */
+.highlight {
+	width: 100%;
+	overflow-x: auto;
+}
+
+/* 滚动条样式 */
+/* 轨道 */
+pre::-webkit-scrollbar-track {
+    /* 暗色调 */
+	background: #262727;
+	/* 亮色调*/
+/*	background: #F2F3F5;*/
+
+    border-radius: 5px;
+}
+/* 滑块 */
+pre::-webkit-scrollbar-thumb {
+	/* 暗色调 */
+    background-color: #39393A;
+	/* 亮色调*/
+/*	background-color: #A8ABB2;*/
+
+    border-radius: 5px;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+}
+pre::-webkit-scrollbar-thumb:hover {
+	/* 暗色调 */
+    background-color: #424243;
+	/* 亮色调*/
+/*	background-color: #909399;*/
+}
+/* 滚动条 */
+pre::-webkit-scrollbar {
+    width: 100%;
+}
+
+pre {
+	border-radius: 5px;
+	/* 暗色调 */
+	background: #262727;
+	/* 亮色调*/
+/*	background: #F2F3F5;*/
+	overflow: auto;
+}
+
+pre code{
+}
+
+
+
+/* 图片 */
+img {
+	max-width: 100%;
+	width: auto;
+	margin: 0 auto;
+}
+
+
+
+/* 表格 */
+table {
+	margin: 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table tr th{
+	border: 1px solid;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+table tr td {
+	border: 1px solid;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+
+
+/* 代码块关键字高亮(Pygments渲染) */
+/* 关键字 */
+.k,.kc,.kd,.kn,.kp,.kr,.kt {
+	color: #B29FF8;
+}
+/* 名称 */
+.n,.na,.nb,.bp,.no,.nd,.ni,.ne,.py,.nl,.nn,.nn,.nx,.nt {
+	color: #399EE6;
+}
+.nc,.nf,.fm,.nv,.vc,.vg,.vi,.vm {
+	color: #FED762;
+}
+/* 字面量 */
+.l,.ld {
+}
+/* 字符串 */
+.s,.sa,.sb,.sc,.dl,.sd,.s2,.se,.sh,.si,.sx,.sr,.s1,.ss {
+	color: #A6DE75;
+}
+/* 数字 */
+.m,.mb,.mf,.mh,.mi,.il,.mo {
+	color: #FC5F8D;
+}
+/* 操作符|标点 */
+.o,.ow,.p,.pm {
+	color: #B29FF8;
+}
+/* 注释 */
+.c,.ch,.cm,.cp,.cpf,.c1,.cs {
+	color: #909399;
+}
