@@ -83,7 +83,7 @@ CoolMarkMarkDownEditer::CoolMarkMarkDownEditer(QWidget* parent)
     markdownediterhighlight = new CoolMarkMarkDownEditerHighlight(document());
     setStyleSheet("background:transparent;color:#E6DB74;font-family:'Consolas';font-size:16px;border:none;");
     setTabStopDistance(fontMetrics().horizontalAdvance(" ") * 8);
-    setWordWrapMode(QTextOption::NoWrap);
+    //setWordWrapMode(QTextOption::NoWrap);
     //左侧行号渲染
     connect(this, &CoolMarkMarkDownEditer::blockCountChanged, this, &CoolMarkMarkDownEditer::updateLineNumberAreaWidth);
     connect(this, &CoolMarkMarkDownEditer::updateRequest, this, &CoolMarkMarkDownEditer::updateLineNumberArea);
