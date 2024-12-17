@@ -44,7 +44,7 @@ protected:
                 "<meta charset=\"utf-8\">\n"
                 "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n"
                 "<link rel=\"stylesheet\" href=\"" + cssfile + "\">\n"
-                "<script type=\"text/x-mathjax-config\">MathJax.Hub.Config({config:[\"MMLorHTML.js\"],jax:[\"input/TeX\",\"output/HTML-CSS\",\"output/NativeMML\"],extensions:[\"MathMenu.js\",\"MathZoom.js\"]});</script>\n"
+                "<script type=\"text/x-mathjax-config\">MathJax.Hub.Config({showProcessingMessages: false,messageStyle:\"none\",config:[\"MMLorHTML.js\"],jax:[\"input/TeX\",\"output/HTML-CSS\",\"output/NativeMML\"],extensions:[\"MathMenu.js\",\"MathZoom.js\"]});</script>\n"
                 "<script type=\"text/javascript\" src=\"https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js\"></script>\n"
                 "</head>\n"
                 "<body>\n"
