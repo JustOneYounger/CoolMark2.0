@@ -33,10 +33,8 @@ hr {
 
 /* 数学公式 */
 .MathJax_Display {
-	color: white !important;
 }
 .MathJax_Preview {
-	color: white !important;
 }
 
 
@@ -99,6 +97,15 @@ p {
 
 /* 引用 */
 blockquote{
+	/* 暗色调 */
+	background: #262727;
+	/* 亮色调 */
+/*	background: #E6E8EB;*/
+	padding: 5px;
+	border:4px solid #909399;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
 }
 
 blockquote p {
@@ -132,13 +139,16 @@ dl dd {
 
 /* 代码*/
 code {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: 700;
 	color: #F56C6C;
 	/* 暗色调 */
 	background: #262727;
 	/* 亮色调*/
 /*	background: #F2F3F5;*/
 
-	border-radius: 5px;
+	border-radius: 3px;
 }
 
 
@@ -199,7 +209,8 @@ pre code{
 img {
 	max-width: 100%;
 	width: auto;
-	margin: 0 auto;
+	margin: auto;
+	display: block;
 }
 
 
@@ -235,29 +246,28 @@ table tr td {
 /* 代码块关键字高亮(Pygments渲染) */
 /* 关键字 */
 .k,.kc,.kd,.kn,.kp,.kr,.kt {
-	color: #B29FF8;
+	color: #C46DB3;
 }
 /* 名称 */
 .n,.na,.nb,.bp,.no,.nd,.ni,.ne,.py,.nl,.nn,.nn,.nx,.nt {
-	color: #399EE6;
+	color: #F3AA46;
 }
 .nc,.nf,.fm,.nv,.vc,.vg,.vi,.vm {
-	color: #FED762;
+	color: #58C0E7;
 }
 /* 字面量 */
 .l,.ld {
 }
 /* 字符串 */
 .s,.sa,.sb,.sc,.dl,.sd,.s2,.se,.sh,.si,.sx,.sr,.s1,.ss {
-	color: #A6DE75;
+	color: #86B45C;
 }
 /* 数字 */
 .m,.mb,.mf,.mh,.mi,.il,.mo {
-	color: #FC5F8D;
 }
 /* 操作符|标点 */
 .o,.ow,.p,.pm {
-	color: #B29FF8;
+	color: #AFA7D2;
 }
 /* 注释 */
 .c,.ch,.cm,.cp,.cpf,.c1,.cs {
